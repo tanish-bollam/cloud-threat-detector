@@ -1,0 +1,234 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "bob"
+      },
+      "eventTime": "2025-08-07T22:55:20Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "StartInstances",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "52.95.110.1",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": {
+        "instancesSet": {
+          "items": [
+            {
+              "instanceId": "i-83606828"
+            }
+          ]
+        }
+      },
+      "responseElements": null
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "admin"
+      },
+      "eventTime": "2025-08-07T16:32:20Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "StartInstances",
+      "awsRegion": "eu-central-1",
+      "sourceIPAddress": "203.0.113.45",
+      "userAgent": "aws-cli/1.16.220",
+      "requestParameters": {
+        "instancesSet": {
+          "items": [
+            {
+              "instanceId": "i-11297953"
+            }
+          ]
+        }
+      },
+      "responseElements": null
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "bob"
+      },
+      "eventTime": "2025-08-07T20:15:20Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "StopInstances",
+      "awsRegion": "eu-central-1",
+      "sourceIPAddress": "203.0.113.45",
+      "userAgent": "aws-cli/1.16.220",
+      "requestParameters": {
+        "instancesSet": {
+          "items": [
+            {
+              "instanceId": "i-78249075"
+            }
+          ]
+        }
+      },
+      "responseElements": null
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "bob"
+      },
+      "eventTime": "2025-08-07T13:53:20Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "StopInstances",
+      "awsRegion": "eu-central-1",
+      "sourceIPAddress": "52.95.110.1",
+      "userAgent": "terraform/1.5.0",
+      "requestParameters": {
+        "instancesSet": {
+          "items": [
+            {
+              "instanceId": "i-15485684"
+            }
+          ]
+        }
+      },
+      "responseElements": null
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "alice"
+      },
+      "eventTime": "2025-08-07T06:55:20Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "DeleteUser",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "18.232.34.12",
+      "userAgent": "terraform/1.5.0",
+      "requestParameters": {
+        "instancesSet": {
+          "items": [
+            {
+              "instanceId": "i-28091457"
+            }
+          ]
+        }
+      },
+      "responseElements": null
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "admin"
+      },
+      "eventTime": "2025-08-07T18:27:20Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "CreateBucket",
+      "awsRegion": "eu-central-1",
+      "sourceIPAddress": "52.95.110.1",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": {
+        "instancesSet": {
+          "items": [
+            {
+              "instanceId": "i-93253013"
+            }
+          ]
+        }
+      },
+      "responseElements": null
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "alice"
+      },
+      "eventTime": "2025-08-07T09:08:20Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "CreateBucket",
+      "awsRegion": "eu-central-1",
+      "sourceIPAddress": "203.0.113.45",
+      "userAgent": "aws-cli/1.16.220",
+      "requestParameters": {
+        "instancesSet": {
+          "items": [
+            {
+              "instanceId": "i-75219338"
+            }
+          ]
+        }
+      },
+      "responseElements": null
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "alice"
+      },
+      "eventTime": "2025-08-07T21:27:20Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "StopInstances",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "52.95.110.1",
+      "userAgent": "terraform/1.5.0",
+      "requestParameters": {
+        "instancesSet": {
+          "items": [
+            {
+              "instanceId": "i-87676659"
+            }
+          ]
+        }
+      },
+      "responseElements": null
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "charlie"
+      },
+      "eventTime": "2025-08-07T05:54:20Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "CreateBucket",
+      "awsRegion": "eu-central-1",
+      "sourceIPAddress": "192.168.1.10",
+      "userAgent": "aws-cli/1.16.220",
+      "requestParameters": {
+        "instancesSet": {
+          "items": [
+            {
+              "instanceId": "i-12322866"
+            }
+          ]
+        }
+      },
+      "responseElements": null
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "alice"
+      },
+      "eventTime": "2025-08-07T09:43:20Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "StopInstances",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "192.168.1.10",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": {
+        "instancesSet": {
+          "items": [
+            {
+              "instanceId": "i-22651532"
+            }
+          ]
+        }
+      },
+      "responseElements": null
+    }
+  ]
+}
