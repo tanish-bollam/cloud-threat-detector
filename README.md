@@ -2,6 +2,9 @@
 
 A lightweight threat detection pipeline that ingests AWS CloudTrail-style logs, applies machine learning to detect suspicious activity, and visualizes the results via a Streamlit dashboard.
 
+Accessible via the link below:
+https://cloud-threat-detector.streamlit.app/
+
 ---
 
 ## 🚀 Features
